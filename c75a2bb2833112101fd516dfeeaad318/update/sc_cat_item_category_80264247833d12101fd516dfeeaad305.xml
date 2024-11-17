@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Customize Package Request">61254ec3833d12101fd516dfeeaad317</sc_cat_item>
+        <sc_category display_value="Customize Package Request">1e8df98783f912101fd516dfeeaad3b6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 17:56:29</sys_created_on>
+        <sys_id>80264247833d12101fd516dfeeaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customize Package Request.Customize Package Request</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sc_cat_item_category_80264247833d12101fd516dfeeaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 17:56:29</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
