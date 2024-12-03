@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph>th-list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Discover and book exciting tours and events with ease! Explore curated packages, plan memorable experiences, and secure your spot in just a few clicks. Perfect for adventurers, event-goers, and travel enthusiasts.</short_description>
+        <size>md</size>
+        <sp_column display_value="1">b72fe3f7833156101fd516dfeeaad3e5</sp_column>
+        <sp_page display_value="sc_category">07261a2147132100ba13a5554ee49092</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 09:37:34</sys_created_on>
+        <sys_id>70b0777b833156101fd516dfeeaad3d4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Tours &amp; Events Booking</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_instance_link_70b0777b833156101fd516dfeeaad3d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 16:09:49</sys_updated_on>
+        <title>Tours &amp; Events Booking</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=70b0777b833156101fd516dfeeaad3d4"/>
+</record_update>

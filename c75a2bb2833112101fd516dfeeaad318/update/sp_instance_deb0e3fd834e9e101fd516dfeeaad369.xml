@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="4">eaa063fd834e9e101fd516dfeeaad3c5</sp_column>
+        <sp_widget display_value="explorenow_featured_product_4">2c261f31834e9e101fd516dfeeaad386</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-24 13:35:37</sys_created_on>
+        <sys_id>deb0e3fd834e9e101fd516dfeeaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_instance_deb0e3fd834e9e101fd516dfeeaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-24 13:35:37</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=deb0e3fd834e9e101fd516dfeeaad369"/>
+</record_update>

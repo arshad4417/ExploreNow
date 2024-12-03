@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ExploreNow upcoming T&amp;E">f76f4358835212101fd516dfeeaad386</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>upcoming T&amp;Es</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1275757_exploren_upcoming_t_e</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1275757_exploren.upcoming_t_e_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 06:44:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b6f4358835212101fd516dfeeaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>upcoming T&amp;Es</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sys_app_module_3b6f4358835212101fd516dfeeaad38a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 06:44:53</sys_updated_on>
+        <timeline_page/>
+        <title>upcoming T&amp;Es</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

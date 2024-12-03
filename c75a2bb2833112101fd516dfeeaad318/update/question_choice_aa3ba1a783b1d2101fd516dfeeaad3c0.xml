@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Do you have specific preferences for room type?">6b0ba1a783b1d2101fd516dfeeaad3bb</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-17 05:16:19</sys_created_on>
+        <sys_id>aa3ba1a783b1d2101fd516dfeeaad3c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Single</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>question_choice_aa3ba1a783b1d2101fd516dfeeaad3c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-17 05:16:19</sys_updated_on>
+        <text>Single</text>
+        <value>Single</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=aa3ba1a783b1d2101fd516dfeeaad3c0"/>
+</record_update>

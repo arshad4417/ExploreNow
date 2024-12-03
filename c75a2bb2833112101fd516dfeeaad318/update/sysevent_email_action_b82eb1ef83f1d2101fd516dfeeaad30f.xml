@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_1275757_exploren.ExploreNow TE3</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Subject: Update on Your Order Request</p>
+<p>Dear ${requested_for},</p>
+<p>We regret to inform you that your order request could not be approved.</p>
+<p>Order Details:</p>
+<ul style="list-style-position: inside;">
+<li>Order ID: ${number}</li>
+<li>Package Description: ${cat_item.description}</li>
+<li>Submission Date: ${sys_updated_on}</li>
+</ul>
+<p>Reason for Rejection:</p>
+<p>Thank you for choosing ExploreNow for your travel plans. After reviewing your order request, we regret to inform you that it could not be approved due to the following reason:</p>
+<p>The selected package, '[Package Name],' is currently unavailable for the dates you requested. This could be due to high demand, limited availability, or restrictions from our travel partners for the specified destination during that period.</p>
+<p>We sincerely apologize for any inconvenience caused. We recommend exploring alternative packages or adjusting your travel dates to accommodate availability. If you'd like assistance in finding another package or customizing a similar one, our support team is here to help.</p>
+<p>Please feel free to contact us at [Support Email] or call us at [Contact Number]. We value your interest and hope to assist you with your travel plans soon."</p>
+<p>This explanation provides clarity, shows empathy, and offers actionable next steps to keep the user engaged.</p>
+<p>We apologize for the inconvenience and encourage you to explore other packages or make adjustments to your request. For assistance, please contact our support team at <a href="mailto:explorenow@example.com">explorenow@example.com</a>.</p>
+<p>Thank you for your understanding, and we hope to assist you in planning your perfect trip soon.</p>
+<p>Warm regards,<br />The ExploreNow Team<br /><a href="mailto:explorenow@example.com">explorenow@example.com</a></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>ExploreNow TE3</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject/>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-17 06:44:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b82eb1ef83f1d2101fd516dfeeaad30f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ExploreNow TE3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sysevent_email_action_b82eb1ef83f1d2101fd516dfeeaad30f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 08:50:59</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

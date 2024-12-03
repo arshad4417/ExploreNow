@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: 'Arial', sans-serif;
+}
+ .arshad{
+   fonnt : 'AmstelvarAlpha';
+   color : #ff5630;
+}
+.review-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+.full-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+ 
+.review-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.rating-summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+}
+ 
+.rating-summary .star {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+.individual-review {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+ 
+.individual-review p:first-child {
+    margin: 0 0 8px;
+    font-size: 16px;
+    color: #333;
+}
+ 
+.individual-review p:last-child {
+    margin: 0;
+    text-align: right;
+    font-size: 14px;
+    color: #777;
+}
+.emoji {
+    font-size: 18px;
+    margin-left: 5px;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>explorenow_reviews_1</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>explorenow_reviews_1</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 04:09:54</sys_created_on>
+        <sys_id>19d826c2834ede101fd516dfeeaad39b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>explorenow_reviews_1</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_widget_19d826c2834ede101fd516dfeeaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 04:11:54</sys_updated_on>
+        <template><![CDATA[<div class="reviews">
+<div class="review-item">
+
+<img src="x_1275757_exploren.Images_review_1.jpg" alt="Review Image 1" class="full-image">
+<div class="review-summary">
+<div class="rating-summary">
+<span class="star">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+<span>(120 ratings)</span>
+</div>
+<div class="individual-review">
+<p>"Great service! Highly recommended! <span class="emoji">&#128522;</span>"</p>
+<p>- Pari Das</p>
+</div>
+<div class="individual-review">
+<p>"Very good, but could be improved <span class="emoji">&#128077;</span>"</p>
+<p>- Dhruv Joshi</p>
+</div>
+</div>
+</div>
+ ]]></template>
+    </sp_widget>
+</record_update>

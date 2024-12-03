@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>ExploreNow Tour Packages Variable Set</description>
+        <display_title>false</display_title>
+        <internal_name>explorenow_tour_packages_variable_set</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-17 04:59:25</sys_created_on>
+        <sys_id>ea37692383b1d2101fd516dfeeaad343</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>ExploreNow Tour Packages Variable Set</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>item_option_new_set_ea37692383b1d2101fd516dfeeaad343</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-27 05:43:06</sys_updated_on>
+        <title>ExploreNow Tour Packages Variable Set</title>
+        <type>one_to_one</type>
+        <version>32</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

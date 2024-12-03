@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_request</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>This email is sent to users after they submit a request for a customized tour package through the ExploreNow application. It confirms the successful creation of their request and informs them that it is under review and awaiting approval. The email includes key details about the request, such as the Request ID, package name, and submitted customizations. It also provides instructions for tracking the request status or making modifications, ensuring clear communication and setting user expectations for the next steps in the process.</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_1275757_exploren.customize_package_e1</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>
+<div>
+<div>
+<div>
+<div><span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">Dear ${requested_for}</span><span style="background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">,</span></div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div dir="auto" data-message-model-slug="gpt-4o" data-message-id="66bbaf70-e3df-486b-9112-356d37c0d4d1" data-message-author-role="assistant">
+<p>Thank you for choosing ExploreNow to create your dream travel experience!</p>
+<p>We&rsquo;re delighted to inform you that your request for a customized tour package has been successfully submitted and is now awaiting approval from our team.</p>
+<p>Request Details:</p>
+<ul style="list-style-position: inside;">
+<li>Request ID: ${number}</li>
+<li>Package Name: Customized Package Request</li>
+<li>Submission Date: ${sys_created_on}</li>
+</ul>
+<p>Our travel experts are reviewing your request to ensure your package meets your preferences and expectations. Once approved, you will receive a confirmation email with the next steps and any additional information.</p>
+<p>If you need to make changes or have any questions about your request, please reach out to us at <a href="mailto:explorenow@example.com">explorenow@example.com</a> or check your request status here: Portal.</p>
+<p>Thank you for trusting ExploreNow to craft your personalized travel experience. We can&rsquo;t wait to bring your journey to life!</p>
+<p>Warm regards,<br />The ExploreNow Team,</p>
+<p>${assigned_to}</p>
+</div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Customize Request notification 1</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>requested_for</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Subject: Your Customized Package Request Has Been Created and Is Awaiting Approval</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 05:59:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbaa289f833952101fd516dfeeaad3d4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Customize Request notification 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sysevent_email_action_dbaa289f833952101fd516dfeeaad3d4</sys_update_name>
+        <sys_updated_by>event_admin</sys_updated_by>
+        <sys_updated_on>2024-11-19 04:53:13</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

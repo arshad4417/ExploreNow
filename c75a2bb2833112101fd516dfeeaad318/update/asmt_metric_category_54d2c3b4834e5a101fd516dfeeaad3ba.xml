@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="INSERT_OR_UPDATE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=eb520774834e5a101fd516dfeeaad389^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="eb520774834e5a101fd516dfeeaad389"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="ExploreNow tour and Event Survey">eb520774834e5a101fd516dfeeaad389</metric_type>
+        <name>ExploreNow tour and Event Survey</name>
+        <order>1</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 08:51:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54d2c3b4834e5a101fd516dfeeaad3ba</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ExploreNow tour and Event Survey</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>asmt_metric_category_54d2c3b4834e5a101fd516dfeeaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 09:02:41</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>6</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=54d2c3b4834e5a101fd516dfeeaad3ba"/>
+</record_update>

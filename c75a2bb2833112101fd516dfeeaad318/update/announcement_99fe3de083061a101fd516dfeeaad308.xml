@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>urlNew</click_target>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url>https://dev255988.service-now.com/en/en?id=sc_cat_item&amp;sys_id=61254ec3833d12101fd516dfeeaad317</details_url>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2024-11-20 09:16:41</from>
+        <glyph>newspaper-o</glyph>
+        <glyph_alt_text/>
+        <name>Tech Innovators Summit 2024</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Location: Silicon Valley, California&#13;
+Date: March 20-22, 2024&#13;
+Details:&#13;
+Keynote speeches by leading tech entrepreneurs.&#13;
+Networking sessions and panel discussions.&#13;
+Exhibition of cutting-edge innovations.&#13;
+Cost: $500 per attendee</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 09:16:55</sys_created_on>
+        <sys_id>99fe3de083061a101fd516dfeeaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tech Innovators Summit 2024</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>announcement_99fe3de083061a101fd516dfeeaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 09:16:55</sys_updated_on>
+        <title>Tech Innovators Summit 2024</title>
+        <to>2025-01-15 09:16:45</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=99fe3de083061a101fd516dfeeaad308"/>
+</record_update>
