@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd1f8b18835212101fd516dfeeaad3a7" label="upcoming T&amp;E" max_length="40" name="x_1275757_exploren_upcoming_t_e" type="collection">
+        <element attributes="encode_utf8=false" label="REQ Number" max_length="32" name="req_number" reference="sc_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="RITM Number" max_length="32" name="ritm_number" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tour/Event Name" max_length="40" name="tour_event_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Booking Date" max_length="40" name="booking_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Number" max_length="40" name="contact_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Destination" max_length="40" name="destination" type="string"/>
+        <index name="index">
+            <element name="req_number"/>
+        </index>
+        <index name="index2">
+            <element name="ritm_number"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

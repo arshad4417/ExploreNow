@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <description>Take a break from routine with our Weekend Getaway Package! Discover nearby destinations, relax in cozy accommodations, and enjoy stress-free planning for a refreshing escape.</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="Event  Admin">c5c7040b83b112101fd516dfeeaad390</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 09:02:39</sys_created_on>
+        <sys_id>f8bb844f83b112101fd516dfeeaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tour</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sc_catalog_f8bb844f83b112101fd516dfeeaad37c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 09:02:39</sys_updated_on>
+        <title>Tour</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=f8bb844f83b112101fd516dfeeaad37c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sc_catalog_f8bb844f83b112101fd516dfeeaad37c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><description>Take a break from routine with our Weekend Getaway Package! Discover nearby destinations, relax in cozy accommodations, and enjoy stress-free planning for a refreshing escape.</description><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager display_value="Event  Admin">c5c7040b83b112101fd516dfeeaad390</manager><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-15 09:02:39</sys_created_on><sys_id>f8bb844f83b112101fd516dfeeaad37c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tour</sys_name><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sc_catalog_f8bb844f83b112101fd516dfeeaad37c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-15 09:02:39</sys_updated_on><title>Tour</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=f8bb844f83b112101fd516dfeeaad37c"/></record_update>]]></payload>
+        <payload_hash>870724271</payload_hash>
+        <record_name>Tour</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 09:02:39</sys_created_on>
+        <sys_id>98fbc84f83b112101fd516dfeeaad3a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1932f0f6a350000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 09:02:39</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>9cfbc84fd6b112101c4928f93c454da0</update_guid>
+        <update_guid_history>9cfbc84fd6b112101c4928f93c454da0:870724271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tour">34b8601f833952101fd516dfeeaad36d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 05:46:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>0c4f11ea62394e08a5485bc0ac53a504</sys_id>
+        <sys_metadata>f8bb844f83b112101fd516dfeeaad37c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tour</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sc_catalog_f8bb844f83b112101fd516dfeeaad37c</sys_update_name>
+        <sys_update_version display_value="sc_catalog_f8bb844f83b112101fd516dfeeaad37c">98fbc84f83b112101fd516dfeeaad3a1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 05:46:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

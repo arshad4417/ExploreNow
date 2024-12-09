@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bba92a06834ede101fd516dfeeaad332</sp_column>
+        <sp_widget display_value="explorenow_reviews_1">19d826c2834ede101fd516dfeeaad39b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 04:13:45</sys_created_on>
+        <sys_id>b9b92a06834ede101fd516dfeeaad3e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_instance_b9b92a06834ede101fd516dfeeaad3e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 04:10:05</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b9b92a06834ede101fd516dfeeaad3e8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sp_instance_b9b92a06834ede101fd516dfeeaad3e8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>3</order><roles/><short_description/><size>md</size><sp_column display_value="1">bba92a06834ede101fd516dfeeaad332</sp_column><sp_widget display_value="explorenow_reviews_1">19d826c2834ede101fd516dfeeaad39b</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-25 04:13:45</sys_created_on><sys_id>b9b92a06834ede101fd516dfeeaad3e8</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sp_instance_b9b92a06834ede101fd516dfeeaad3e8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-26 04:10:05</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=b9b92a06834ede101fd516dfeeaad3e8"/></record_update>]]></payload>
+        <payload_hash>-756614555</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 04:10:05</sys_created_on>
+        <sys_id>bd723f5a838652501fd516dfeeaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19366a984120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 04:10:05</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>75723f5a81865250f535f01ba4d65626</update_guid>
+        <update_guid_history>75723f5a81865250f535f01ba4d65626:-756614555,593a66469c4ede105f994c67fc9f3979:-1726217180,bdb92a06cb4ede107b1bf839e062c4e9:1599147491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">f172735a838652501fd516dfeeaad3eb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 04:10:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>27e850583aa740168cc49bfe24efe004</sys_id>
+        <sys_metadata>b9b92a06834ede101fd516dfeeaad3e8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sp_instance_b9b92a06834ede101fd516dfeeaad3e8</sys_update_name>
+        <sys_update_version display_value="sp_instance_b9b92a06834ede101fd516dfeeaad3e8">bd723f5a838652501fd516dfeeaad326</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 04:10:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="file_root=true,no_labels=true,ref_ac_columns=name,ref_ac_columns_search=true,ref_auto_completer=AJAXTableCompleter,update_synch=true" db_object_id="f10910133530121087de279753545899" extends="sys_metadata" label="Table" max_length="40" name="sys_db_object" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="RITM Numbers" max_length="32" name="x_1275757_exploren_ritm_numbers" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Booking Date" max_length="40" name="x_1275757_exploren_booking_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="x_1275757_exploren_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="x_1275757_exploren_status" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="End Date" max_length="40" name="x_1275757_exploren_end_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="REQ Number" max_length="32" name="x_1275757_exploren_req_number" reference="sc_request" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Tour/Event Name" max_length="40" name="x_1275757_exploren_tour_event_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Number" max_length="40" name="x_1275757_exploren_contact_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="x_1275757_exploren_start_date" type="glide_date"/>
+        <index name="index">
+            <element name="x_1275757_exploren_req_number"/>
+        </index>
+        <index name="index2">
+            <element name="x_1275757_exploren_user"/>
+        </index>
+    </element>
+</database>

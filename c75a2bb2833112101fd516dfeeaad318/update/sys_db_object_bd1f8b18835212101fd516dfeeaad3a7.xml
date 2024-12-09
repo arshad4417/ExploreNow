@@ -33,5 +33,15 @@
         <update_access>false</update_access>
         <user_role display_value="x_1275757_exploren.upcoming_t_e_user" name="x_1275757_exploren.upcoming_t_e_user">ff6fcbd4835212101fd516dfeeaad3e8</user_role>
         <ws_access>true</ws_access>
+        <x_1275757_exploren_booking_date/>
+        <x_1275757_exploren_contact_number/>
+        <x_1275757_exploren_end_date/>
+        <x_1275757_exploren_req_number/>
+        <x_1275757_exploren_ritm_number/>
+        <x_1275757_exploren_ritm_numbers/>
+        <x_1275757_exploren_start_date/>
+        <x_1275757_exploren_status/>
+        <x_1275757_exploren_tour_event_name/>
+        <x_1275757_exploren_user/>
     </sys_db_object>
 </record_update>

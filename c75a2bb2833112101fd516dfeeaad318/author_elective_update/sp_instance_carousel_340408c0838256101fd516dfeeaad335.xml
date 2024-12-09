@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel">
+    <sp_instance_carousel action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id>Images</id>
+        <interval>5000</interval>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5bf5bb33837156101fd516dfeeaad37f</sp_column>
+        <sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget>
+        <sys_class_name>sp_instance_carousel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 11:01:56</sys_created_on>
+        <sys_id>340408c0838256101fd516dfeeaad335</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_instance_carousel_340408c0838256101fd516dfeeaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 11:06:22</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_carousel>
+    <sys_translated_text action="DELETE" query="documentkey=340408c0838256101fd516dfeeaad335"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sp_instance_carousel_340408c0838256101fd516dfeeaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_carousel"><sp_instance_carousel action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id>Images</id><interval>5000</interval><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">5bf5bb33837156101fd516dfeeaad37f</sp_column><sp_widget display_value="Carousel">cf1a5153cb21020000f8d856634c9c3c</sp_widget><sys_class_name>sp_instance_carousel</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-18 11:01:56</sys_created_on><sys_id>340408c0838256101fd516dfeeaad335</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sp_instance_carousel_340408c0838256101fd516dfeeaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-18 11:06:22</sys_updated_on><title/><url/><widget_parameters/></sp_instance_carousel><sys_translated_text action="delete_multiple" query="documentkey=340408c0838256101fd516dfeeaad335"/></record_update>]]></payload>
+        <payload_hash>1617006114</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 11:06:22</sys_created_on>
+        <sys_id>790588c0838256101fd516dfeeaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1933ef3c2a00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 11:06:22</sys_updated_on>
+        <type>Instance of Carousel</type>
+        <update_guid>310588c0fe82561066b4e7c4c3b7beec</update_guid>
+        <update_guid_history>310588c0fe82561066b4e7c4c3b7beec:1617006114,fe64408c95425610605534da9ea411e5:1695818413,1b14848c63425610d91ebc6f6102d763:-705862477,3c0408c0418256101b8ee0a01d101f36:1695818413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">fc168844838256101fd516dfeeaad3fe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 11:10:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_carousel">sp_instance_carousel</sys_db_object>
+        <sys_id>613d5d3ffba3486e91e70d9a8c31cd24</sys_id>
+        <sys_metadata>340408c0838256101fd516dfeeaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sp_instance_carousel_340408c0838256101fd516dfeeaad335</sys_update_name>
+        <sys_update_version display_value="sp_instance_carousel_340408c0838256101fd516dfeeaad335">790588c0838256101fd516dfeeaad3ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 11:10:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

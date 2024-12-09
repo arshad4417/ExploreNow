@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Customize Package Request Guide">40a2ce8f83f912101fd516dfeeaad322</sc_cat_item>
+        <sc_catalog display_value="Tour">f8bb844f83b112101fd516dfeeaad37c</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 17:42:26</sys_created_on>
+        <sys_id>d2e24603833d12101fd516dfeeaad332</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tour.Customize Package Request Guide</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_d2e24603833d12101fd516dfeeaad332</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 17:42:26</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sc_cat_item_catalog_d2e24603833d12101fd516dfeeaad332</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Customize Package Request Guide">40a2ce8f83f912101fd516dfeeaad322</sc_cat_item><sc_catalog display_value="Tour">f8bb844f83b112101fd516dfeeaad37c</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-15 17:42:26</sys_created_on><sys_id>d2e24603833d12101fd516dfeeaad332</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Tour.Customize Package Request Guide</sys_name><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sc_cat_item_catalog_d2e24603833d12101fd516dfeeaad332</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-15 17:42:26</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1283749155</payload_hash>
+        <record_name>Tour.Customize Package Request Guide</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 17:42:26</sys_created_on>
+        <sys_id>56e24603833d12101fd516dfeeaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19330eb4a620000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 17:42:26</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>5ae24603733d12100029fea14f6bc734</update_guid>
+        <update_guid_history>5ae24603733d12100029fea14f6bc734:1283749155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Tour.Customize Package Request Guide">4198e8db833952101fd516dfeeaad3b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 05:46:15</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>37c6caeb3d8b4af3980a6e19aafaef41</sys_id>
+        <sys_metadata>d2e24603833d12101fd516dfeeaad332</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tour.Customize Package Request Guide</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent display_value="">40a2ce8f83f912101fd516dfeeaad322</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_d2e24603833d12101fd516dfeeaad332</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_d2e24603833d12101fd516dfeeaad332">56e24603833d12101fd516dfeeaad335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 05:46:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

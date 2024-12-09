@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1275757_exploren.ExploreNowFatchDeatils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ExploreNowFatchDeatils</name>
+        <script><![CDATA[var ExploreNowFatchDeatils = Class.create();
+ExploreNowFatchDeatils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    userDetails: function() {
+        var id = this.getParameter('sysparam_userid');
+        var gr = new GlideRecord('sys_user');
+        gr.get(id);
+        var userObj = {
+            "email": gr.getValue("email"),
+        };
+
+        return JSON.stringify(userObj);
+
+    },
+    type: 'ExploreNowFatchDeatils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 06:18:20</sys_created_on>
+        <sys_id>8f559da083421a101fd516dfeeaad324</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ExploreNowFatchDeatils</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sys_script_include_8f559da083421a101fd516dfeeaad324</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 06:30:42</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sys_script_include_8f559da083421a101fd516dfeeaad324</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_1275757_exploren.ExploreNowFatchDeatils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;ExploreNowFatchDeatils&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var ExploreNowFatchDeatils = Class.create();
+ExploreNowFatchDeatils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    userDetails: function() {
+        var id = this.getParameter('sysparam_userid');
+        var gr = new GlideRecord('sys_user');
+        gr.get(id);
+        var userObj = {
+            "email": gr.getValue("email"),
+        };
+
+        return JSON.stringify(userObj);
+
+    },
+    type: 'ExploreNowFatchDeatils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-20 06:18:20&lt;/sys_created_on&gt;&lt;sys_id&gt;8f559da083421a101fd516dfeeaad324&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;ExploreNowFatchDeatils&lt;/sys_name&gt;&lt;sys_package display_value="ExploreNow" source="x_1275757_exploren"&gt;c75a2bb2833112101fd516dfeeaad318&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="ExploreNow"&gt;c75a2bb2833112101fd516dfeeaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_8f559da083421a101fd516dfeeaad324&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-20 06:30:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2039341759</payload_hash>
+        <record_name>ExploreNowFatchDeatils</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 06:30:42</sys_created_on>
+        <sys_id>5f1959e483421a101fd516dfeeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193484419ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 06:30:42</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>171959e495421a1075e73dfe2ba02ba9</update_guid>
+        <update_guid_history>171959e495421a1075e73dfe2ba02ba9:-2039341759,8e46d1247a421a10d3a6bed8944dcd1a:1477281842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 06:31:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0b9ba047cc414d508756a8dc741d41e4</sys_id>
+        <sys_metadata>8f559da083421a101fd516dfeeaad324</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExploreNowFatchDeatils</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sys_script_include_8f559da083421a101fd516dfeeaad324</sys_update_name>
+        <sys_update_version display_value="sys_script_include_8f559da083421a101fd516dfeeaad324">5f1959e483421a101fd516dfeeaad3a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 06:31:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

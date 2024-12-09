@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
     <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
         <condition/>
-        <guide display_value="Customize Package Request Guide">40a2ce8f83f912101fd516dfeeaad322</guide>
+        <guide/>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
         <item display_value="Customize Package Request">61254ec3833d12101fd516dfeeaad317</item>
         <order/>

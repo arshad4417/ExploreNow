@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="ExploreNow Raise An Issue">5cf5996b8331d2101fd516dfeeaad3de</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-17 04:24:53</sys_created_on>
+        <sys_id>b28f95a78371d2101fd516dfeeaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ExploreNow Raise An Issue</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_b28f95a78371d2101fd516dfeeaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-17 04:24:53</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sc_cat_item_catalog_b28f95a78371d2101fd516dfeeaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="ExploreNow Raise An Issue">5cf5996b8331d2101fd516dfeeaad3de</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-17 04:24:53</sys_created_on><sys_id>b28f95a78371d2101fd516dfeeaad379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.ExploreNow Raise An Issue</sys_name><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sc_cat_item_catalog_b28f95a78371d2101fd516dfeeaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-17 04:24:53</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>2021657298</payload_hash>
+        <record_name>Service Catalog.ExploreNow Raise An Issue</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-17 04:24:53</sys_created_on>
+        <sys_id>ba8f95a78371d2101fd516dfeeaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193385dd5750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-17 04:24:53</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>be8f95a70671d210e92361e02b6d297b</update_guid>
+        <update_guid_history>be8f95a70671d210e92361e02b6d297b:2021657298</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.ExploreNow Raise An Issue">a7e2b6fb83f916101fd516dfeeaad395</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-18 05:07:41</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2191739b743949c08d42e1f599300d24</sys_id>
+        <sys_metadata>b28f95a78371d2101fd516dfeeaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.ExploreNow Raise An Issue</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent display_value="ExploreNow Raise An Issue">5cf5996b8331d2101fd516dfeeaad3de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_b28f95a78371d2101fd516dfeeaad379</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_b28f95a78371d2101fd516dfeeaad379">ba8f95a78371d2101fd516dfeeaad37c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-18 05:07:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

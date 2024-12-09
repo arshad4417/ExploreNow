@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="DELETE">
+        <active>true</active>
+        <description>Enjoy family-friendly events, including carnivals, educational workshops, and kid-centric activities. Designed for all ages, these events ensure fun and bonding moments for the whole family.</description>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="Event  Admin">c5c7040b83b112101fd516dfeeaad390</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 09:01:06</sys_created_on>
+        <sys_id>d5d9088b83b112101fd516dfeeaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sc_catalog_d5d9088b83b112101fd516dfeeaad3da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 09:01:06</sys_updated_on>
+        <title>Events</title>
+    </sc_catalog>
+    <sys_translated_text action="DELETE" query="documentkey=d5d9088b83b112101fd516dfeeaad3da"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sc_catalog_d5d9088b83b112101fd516dfeeaad3da</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog"><sc_catalog action="INSERT_OR_UPDATE"><active>true</active><description>Enjoy family-friendly events, including carnivals, educational workshops, and kid-centric activities. Designed for all ages, these events ensure fun and bonding moments for the whole family.</description><desktop_continue_shopping/><desktop_home_page/><desktop_image/><editors/><enable_wish_list>false</enable_wish_list><manager display_value="Event  Admin">c5c7040b83b112101fd516dfeeaad390</manager><sys_class_name>sc_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-15 09:01:06</sys_created_on><sys_id>d5d9088b83b112101fd516dfeeaad3da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Events</sys_name><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sc_catalog_d5d9088b83b112101fd516dfeeaad3da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-15 09:01:06</sys_updated_on><title>Events</title></sc_catalog><sys_translated_text action="delete_multiple" query="documentkey=d5d9088b83b112101fd516dfeeaad3da"/></record_update>]]></payload>
+        <payload_hash>-436901586</payload_hash>
+        <record_name>Events</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 09:01:06</sys_created_on>
+        <sys_id>2d9b804f83b112101fd516dfeeaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1932f0dffe20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-15 09:01:06</sys_updated_on>
+        <type>Catalog</type>
+        <update_guid>219b804f2db112107eb1bf158f425ec7</update_guid>
+        <update_guid_history>219b804f2db112107eb1bf158f425ec7:-436901586</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Events">60b8acdb833952101fd516dfeeaad3e2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-16 05:46:47</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog">sc_catalog</sys_db_object>
+        <sys_id>1c458d98c3b34c3a8ceb88a3903fae04</sys_id>
+        <sys_metadata>d5d9088b83b112101fd516dfeeaad3da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Events</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sc_catalog_d5d9088b83b112101fd516dfeeaad3da</sys_update_name>
+        <sys_update_version display_value="sc_catalog_d5d9088b83b112101fd516dfeeaad3da">2d9b804f83b112101fd516dfeeaad3c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-16 05:46:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

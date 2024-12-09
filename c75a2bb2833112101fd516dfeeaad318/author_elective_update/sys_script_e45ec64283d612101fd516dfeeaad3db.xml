@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Generate PDF Ticket</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var restMessage = new sn_ws.RESTMessageV2();
+    restMessage.setEndpoint('https://api.pdfshift.io/v3/convert/');
+    restMessage.setHttpMethod('POST');
+    
+    // Replace 'YOUR_API_KEY' with your actual PDFShift API key
+    restMessage.setBasicAuth('sk_d2e802c99953d641434b8fa48c4f9cfe950c979a', '');  // API Key is used as Password
+    
+    // Prepare the HTML content for the PDF
+    var ticketHTML = `
+    <html>
+    <body>
+        <h1>Booking Confirmation</h1>
+        <p>Dear ${current.requested_for.getDisplayValue()},</p>
+        <p>Your booking for the tour/event "${current.short_description}" is confirmed.</p>
+        <p>Booking ID: ${current.number}</p>
+        <p>Date: ${current.variables.booking_date}</p>
+    </body>
+    </html>`;
+    
+    // Set the request body
+    var requestBody = JSON.stringify({
+        "source": ticketHTML
+    });
+    restMessage.setRequestBody(requestBody);
+    restMessage.setRequestHeader('Content-Type', 'application/json');
+    
+    // Send the request and get the response
+    try {
+        var response = restMessage.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        
+        // If PDF generation was successful, save it as an attachment
+        if (httpStatus == 200) {
+            var attachment = new GlideSysAttachment();
+            var pdfContent = new GlideStringUtil().decodeBase64(responseBody);
+            attachment.write(current, 'document', 'Booking Confirmation', pdfContent);
+        } else {
+            gs.error('Failed to generate PDF. HTTP Status: ' + httpStatus);
+        }
+    } catch (ex) {
+        gs.error('Error while sending the REST request: ' + ex.message);
+    }
+})(current, previous);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 12:31:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e45ec64283d612101fd516dfeeaad3db</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Generate PDF Ticket</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sys_script_e45ec64283d612101fd516dfeeaad3db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 16:38:50</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=e45ec64283d612101fd516dfeeaad3db"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sys_script_e45ec64283d612101fd516dfeeaad3db</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sc_req_item&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Generate PDF Ticket&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+    var restMessage = new sn_ws.RESTMessageV2();
+    restMessage.setEndpoint('https://api.pdfshift.io/v3/convert/');
+    restMessage.setHttpMethod('POST');
+    
+    // Replace 'YOUR_API_KEY' with your actual PDFShift API key
+    restMessage.setBasicAuth('sk_d2e802c99953d641434b8fa48c4f9cfe950c979a', '');  // API Key is used as Password
+    
+    // Prepare the HTML content for the PDF
+    var ticketHTML = `
+    &lt;html&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Booking Confirmation&lt;/h1&gt;
+        &lt;p&gt;Dear ${current.requested_for.getDisplayValue()},&lt;/p&gt;
+        &lt;p&gt;Your booking for the tour/event "${current.short_description}" is confirmed.&lt;/p&gt;
+        &lt;p&gt;Booking ID: ${current.number}&lt;/p&gt;
+        &lt;p&gt;Date: ${current.variables.booking_date}&lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;`;
+    
+    // Set the request body
+    var requestBody = JSON.stringify({
+        "source": ticketHTML
+    });
+    restMessage.setRequestBody(requestBody);
+    restMessage.setRequestHeader('Content-Type', 'application/json');
+    
+    // Send the request and get the response
+    try {
+        var response = restMessage.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        
+        // If PDF generation was successful, save it as an attachment
+        if (httpStatus == 200) {
+            var attachment = new GlideSysAttachment();
+            var pdfContent = new GlideStringUtil().decodeBase64(responseBody);
+            attachment.write(current, 'document', 'Booking Confirmation', pdfContent);
+        } else {
+            gs.error('Failed to generate PDF. HTTP Status: ' + httpStatus);
+        }
+    } catch (ex) {
+        gs.error('Error while sending the REST request: ' + ex.message);
+    }
+})(current, previous);
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-07 12:31:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e45ec64283d612101fd516dfeeaad3db&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Generate PDF Ticket&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="ExploreNow" source="x_1275757_exploren"&gt;c75a2bb2833112101fd516dfeeaad318&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ExploreNow"&gt;c75a2bb2833112101fd516dfeeaad318&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_e45ec64283d612101fd516dfeeaad3db&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-07 16:38:50&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=e45ec64283d612101fd516dfeeaad3db"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1744718643</payload_hash>
+        <record_name>Generate PDF Ticket</record_name>
+        <reverted_from/>
+        <source>ee1c8901839a52101fd516dfeeaad36a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 16:38:50</sys_created_on>
+        <sys_id>8557c302839e12101fd516dfeeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193a1fcf6aa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 16:38:50</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>c957c302e89e1210cba924be81973cb5</update_guid>
+        <update_guid_history>c957c302e89e1210cba924be81973cb5:1744718643,5a84cf0ee95e121085e6f26045471c96:-1079862400,1fd34f0e7f5e1210d75ec4dd0df01c79:919774133,e663c30ef05e121044a3f1d049dbac83:-435353125,f6e287ca135e12107dfc5bfba774e1dc:-500385052,5c720f4a395e12107635d0d0bf41c44b:893435832,8fc18f4aa55e1210e7325aba431a8714:-500385052,3e710b0ad15e1210b35c2e7559af5eb7:-1954460260,0f30030aa85e1210fbbdcd2e43788f52:642979466,01cf7686fe5e1210729a11861d7046bb:-1045736054,8a7f3e86dd5e12101715a7c98cfdf213:586707590,707e7206435e1210d8e3be8f6b2d4346:1555547496,035c7282a35e1210e4d06cca599de304:402674248,f71c3a82875e1210b40657267f6b9b7c:992432595,4ae0a602fcda12109c5a1b4ceb4d6bca:-1509631662,92601e8afe5a1210a6fcd20210ed4517:-451771823,bcaec20a3d5a1210e08fac7f5269df2d:65448541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 07:38:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>47dcdfef302f4d149fcee7ed652a6890</sys_id>
+        <sys_metadata>e45ec64283d612101fd516dfeeaad3db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate PDF Ticket</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent display_value="Sc Req Item">432d185f35b0121087de2797535458bc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sys_script_e45ec64283d612101fd516dfeeaad3db</sys_update_name>
+        <sys_update_version display_value="sys_script_e45ec64283d612101fd516dfeeaad3db">8557c302839e12101fd516dfeeaad3b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-08 07:38:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

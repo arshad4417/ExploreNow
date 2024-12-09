@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Attach Confirmation PDF</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    // Define HTML content for the booking confirmation
+	
+    var htmlContent = `
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Ticket</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100vh;
+            display: grid;
+            font-family: "Staatliches", cursive;
+            background: #ff5630;
+            color: black;
+            font-size: 14px;
+            letter-spacing: 0.1em;
+        }
+
+        .ticket {
+            margin: auto;
+            display: flex;
+            background: white;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        }
+
+        .left {
+            display: flex;
+        }
+
+        .image {
+            height: 274px;
+            
+            background-image: url("https://dev255988.service-now.com/x_1275757_exploren.Ticket_img.jpg");
+            background-size: cover;
+            opacity: 0.85;
+        }
+
+        .admit-one {
+            position: absolute;
+            color: darkgray;
+            height: 250px;
+            padding: 0 10px;
+            letter-spacing: 0.15em;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            writing-mode: vertical-rl;
+            transform: rotate(-180deg);
+        }
+
+        .admit-one span:nth-child(2) {
+            color: white;
+            font-weight: 700;
+        }
+
+        .left .ticket-number {
+            height: 250px;
+            width: 250px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            padding: 5px;
+        }
+
+        .ticket-info {
+            padding: 10px 30px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .date {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            padding: 5px 0;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .date span {
+        }
+
+        .date span:first-child {
+            text-align: left;
+			margin-right:10px;
+        }
+
+        .date span:last-child {
+            text-align: right;
+        }
+
+        .date .june-29 {
+            color: #ff5630;
+            font-size: 20px;
+        }
+
+        .show-name {
+            font-size: 32px;
+            font-family: cursive;
+            color: #d83565;
+        }
+
+        .show-name h1 {
+            font-size: 34px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            color: #4a437e;
+        }
+		.show-name h2 {
+			color: #ff5630;
+		}
+
+        .time {
+            padding: 10px 0;
+            color: #4a437e;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: 700;
+        }
+
+        .time span {
+            font-weight: 400;
+            color: gray;
+        }
+
+        .left .time {
+            font-size: 16px;
+        }
+
+        .location {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            padding-top: 8px;
+            border-top: 1px solid gray;
+        }
+
+        .location .separator {
+            font-size: 20px;
+        }
+
+        .right {
+            width: 180px;
+            border-left: 1px dashed #404040;
+        }
+
+        .right .admit-one {
+            color: darkgray;
+        }
+
+        .right .admit-one span:nth-child(2) {
+            color: gray;
+        }
+
+        .right .right-info-container {
+            height: 250px;
+            padding: 10px 10px 10px 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .right .show-name h1 {
+            font-size: 18px;
+        }
+
+        .barcode {
+            height: 100px;
+        }
+
+        .barcode img {
+            height: 100%;
+        }
+
+        .right .ticket-number {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket created-by-anniedotexe">
+        <div class="left">
+            <div class="image">
+                <p class="admit-one">
+                    <span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+                </p>
+                <div class="ticket-number">
+                    <p>${current.number}</p>
+                </div>
+            </div>
+            <div class="ticket-info">
+                <p class="date">
+                    <span>TUESDAY </span>
+                    <span class="june-29">${current.opened_at}</span>
+                </p>
+                <div class="show-name">
+                    <h1>${current.short_description}</h1>
+                    <h2>ExploreNow</h2>
+                </div>
+                <div class="time">
+                    <p>Dear, <span>${current.requested_for.getDisplayValue()}</span></p>
+                    <p>Accommodation <span>Included</span></p>
+                </div>
+                <p class="location">
+                    <span>ExploreNow</span>
+                    <span class="separator"><i class="far fa-smile"></i></span>
+                    <span>Pune, Maharashtra</span>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <p class="admit-one">
+                <span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+					<span>ADMIT GROUP</span>
+            </p>
+            <div class="right-info-container">
+                <div class="show-name">
+                    <h1>ExploreNow</h1>
+                </div>
+                <div class="time">
+                    <p><span>${current.requested_for.getDisplayValue()}</span></p>
+                    <p>Accommodation <span>Included</span></p>
+                </div>
+                <div class="barcode">
+                    <img src="https://external-preview.redd.it/cg8k976AV52mDvDb5jDVJABPrSZ3tpi1aXhPjgcDTbw.png?auto=webp&s=1c205ba303c1fa0370b813ea83b9e1bddb7215eb" alt="QR code">
+                </div>
+                <p class="ticket-number">
+                    ${current.number}
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    `;
+
+    // Attach the HTML content as a file
+    var attachment = new GlideSysAttachment();
+    attachment.write(current, 'Booking_Confirmation.html', 'text/html', htmlContent);
+
+    gs.info('HTML Confirmation File Attached Successfully!');
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-08 07:50:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03a71a5a831212101fd516dfeeaad3d3</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>Attach Confirmation PDF</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sys_script_03a71a5a831212101fd516dfeeaad3d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 10:58:40</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=03a71a5a831212101fd516dfeeaad3d3"/>
+</record_update>

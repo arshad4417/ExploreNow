@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>ExploreNow Home Page - Container 14</name>
+        <order>14</order>
+        <semantic_tag/>
+        <sp_page display_value="en_home_page">7f15a08f833512101fd516dfeeaad3df</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 05:18:01</sys_created_on>
+        <sys_id>2a7805a083021a101fd516dfeeaad3b4</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>ExploreNow Home Page - Container 14</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sp_container_2a7805a083021a101fd516dfeeaad3b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-24 17:42:56</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</application>
+        <file_path/>
+        <instance_id>51019dcf1b910294c82acb7b234bcb51</instance_id>
+        <instance_name>dev255988</instance_name>
+        <name>sp_container_2a7805a083021a101fd516dfeeaad3b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>ExploreNow Home Page - Container 14</name><order>14</order><semantic_tag/><sp_page display_value="en_home_page">7f15a08f833512101fd516dfeeaad3df</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-20 05:18:01</sys_created_on><sys_id>2a7805a083021a101fd516dfeeaad3b4</sys_id><sys_mod_count>14</sys_mod_count><sys_name>ExploreNow Home Page - Container 14</sys_name><sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package><sys_policy/><sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope><sys_update_name>sp_container_2a7805a083021a101fd516dfeeaad3b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-24 17:42:56</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>36684040</payload_hash>
+        <record_name>ExploreNow Home Page - Container 14</record_name>
+        <reverted_from/>
+        <source>435a2bb2833112101fd516dfeeaad31d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-24 17:42:56</sys_created_on>
+        <sys_id>1559d8468382de101fd516dfeeaad329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1935f44fa7a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-24 17:42:56</sys_updated_on>
+        <type>Container</type>
+        <update_guid>d959d846e582de10ff2321a3fdc32d28</update_guid>
+        <update_guid_history>d959d846e582de10ff2321a3fdc32d28:36684040,d5b3108e1b42de103d0cfc27a89395e4:1757546343,ce15e375928e9e10dd1bb61fce811053:-816558650,99a46b35fc8e9e10fb398a9026dd7a20:904303653,bf32a771778e9e107d83a724fa28561c:-1669801340,b0e16f31c88e9e10abac4a2c9621d80f:907649036,db216ffd8e4e9e1095c7f750a9ac9b57:228429005,f5a063fd464e9e10fa1aeb83c3ee0a46:-450791026,a1506bbdb94e9e100cd5065960e0226e:-1130011057,7630e7bd0e4e9e1068c9b2a4bd080c7c:-1809231088,211ec3f55c0e9e104e6c8c2c5f37c561:-1130011057,8d1ec3f55c0e9e10c0336625ec228519:-1809231088,16fdcfb5810e9e107bcf9cdc3509a5a9:-1130011057,d3b8c9a0fd021a106bc755049191c83f:-1809231088,2e7805a031021a10b3b86cafd9ec9fb5:-1130011057</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ExploreNow Home Page - Container 14">8ee9eec2834ede101fd516dfeeaad384</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 04:14:36</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>2395f47e27a047fa9ab643d343b3fde4</sys_id>
+        <sys_metadata>2a7805a083021a101fd516dfeeaad3b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExploreNow Home Page - Container 14</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_scope_delete display_value="">439472f9181a44518302da71fe7c3eb9</sys_scope_delete>
+        <sys_update_name>sp_container_2a7805a083021a101fd516dfeeaad3b4</sys_update_name>
+        <sys_update_version display_value="sp_container_2a7805a083021a101fd516dfeeaad3b4">1559d8468382de101fd516dfeeaad329</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 04:14:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

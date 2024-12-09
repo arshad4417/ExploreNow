@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>SendConfirmation</name>
+        <operation_script><![CDATA[(function process(request, response) {
+    // Parse the incoming request payload
+    var requestBody = request.body.data;
+    var userId = requestBody.user_id; // User Sys ID
+    var bookingId = requestBody.booking_id; // Booking Sys ID
+
+    // Fetch booking details
+    var bookingGR = new GlideRecord('sc_req_item'); // Replace with your table name
+    if (!bookingGR.get(bookingId)) {
+        response.setStatus(404);
+        return response.setBody({ error: "Booking not found" });
+    }
+
+    // Send confirmation email
+    // var notification = new GlideNotification();
+    // notification.addRecipientUser(userId);
+    // notification.setSubject("Booking Confirmation for " + bookingGR.getValue('tour_name'));
+    // notification.setBody(
+    //     "Hello,\n\nThank you for booking with ExploreNow! Here are your booking details:\n\n" +
+    //     "Booking ID: " + bookingGR.getValue('sys_id') + "\n" +
+    //     "Tour/Event Name: " + bookingGR.getValue('tour_name') + "\n" +
+    //     "Date: " + bookingGR.getValue('date') + "\n" +
+    //     "Location: " + bookingGR.getValue('location') + "\n\n" +
+    //     "Happy exploring!\nExploreNow Team"
+    // );
+    // notification.send();
+
+    // Respond to API call
+    response.setStatus(200);
+    response.setBody({
+        message: "Confirmation email sent successfully.",
+        booking_id: bookingGR.getValue('sys_id'),
+    });
+})(request, response);
+]]></operation_script>
+        <operation_uri>/api/x_1275757_exploren/explorenow_confirmation/send-confirmation</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/send-confirmation</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>false</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-07 03:49:43</sys_created_on>
+        <sys_id>42279086831212101fd516dfeeaad335</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>SendConfirmation</sys_name>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>sys_ws_operation_42279086831212101fd516dfeeaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-07 05:07:05</sys_updated_on>
+        <web_service_definition display_value="ExploreNowConfirmationAPI">7ed69846831212101fd516dfeeaad3ff</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
