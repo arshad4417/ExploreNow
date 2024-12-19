@@ -7,6 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -34,7 +35,7 @@
         <lookup_price/>
         <lookup_table>sc_req_item</lookup_table>
         <lookup_unique>false</lookup_unique>
-        <lookup_value>sys_created_on</lookup_value>
+        <lookup_value>number</lookup_value>
         <macro/>
         <macroponent/>
         <mandatory>true</mandatory>
@@ -42,6 +43,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>please_provide_your_booking_reference_id</name>
+        <not_available_conversation>false</not_available_conversation>
         <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
@@ -56,7 +58,7 @@
         <record/>
         <record_producer_table/>
         <reference>sc_req_item</reference>
-        <reference_qual>assigned_to=c5c7040b83b112101fd516dfeeaad390^requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=1^EQ</reference_qual>
+        <reference_qual>requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=1</reference_qual>
         <reference_qual_condition table="sc_req_item">assigned_to=c5c7040b83b112101fd516dfeeaad390^requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state=1^EQ<item display_table="sys_user" display_value="Event  Admin" endquery="false" field="assigned_to" goto="false" newquery="false" operator="=" or="false" value="c5c7040b83b112101fd516dfeeaad390"/>
             <item endquery="false" field="requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
@@ -81,16 +83,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-18 05:30:04</sys_created_on>
         <sys_id>29f7b673833d16101fd516dfeeaad3d6</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Please provide your booking Id.</sys_name>
         <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
         <sys_policy/>
         <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
         <sys_update_name>item_option_new_29f7b673833d16101fd516dfeeaad3d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-20 06:48:51</sys_updated_on>
+        <sys_updated_on>2024-12-10 04:16:52</sys_updated_on>
         <table/>
         <tooltip/>
+        <topic_block/>
         <type>18</type>
         <ui_page/>
         <unique>false</unique>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assessment display_value="ExploreNow tour and Event Survey">eb520774834e5a101fd516dfeeaad389</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">2c63404783d652101fd516dfeeaad321</business_rule>
+        <condition table="sc_req_item">stateCHANGESTO3^cat_item=e0fdc98c83c656101fd516dfeeaad3a7^ORcat_item=c4dec5cc83c656101fd516dfeeaad38c^ORcat_item=d75dd6bf837916101fd516dfeeaad378^ORcat_item=db8f8dcc83c656101fd516dfeeaad3fb^ORcat_item=b3fcf6ce838ede101fd516dfeeaad3b1^ORcat_item=fb90d180830a56101fd516dfeeaad398^ORcat_item=92868d0483c656101fd516dfeeaad363^ORcat_item=1bec454c83c656101fd516dfeeaad3ee^ORcat_item=80dbc5c883c656101fd516dfeeaad3c6^ORcat_item=ff396cbf833116101fd516dfeeaad356^ORcat_item=e291ac3b833116101fd516dfeeaad376^ORcat_item=4e2b8c3b83bdd2101fd516dfeeaad34a^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_table="sc_cat_item" display_value="Play - Shakespeare Reimagined – Hamlet" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="e0fdc98c83c656101fd516dfeeaad3a7"/>
+            <item display_table="sc_cat_item" display_value="Play - The Kite Runner Live" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="c4dec5cc83c656101fd516dfeeaad38c"/>
+            <item display_table="sc_cat_item" display_value="Music - Symphony Under the Stars" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="d75dd6bf837916101fd516dfeeaad378"/>
+            <item display_table="sc_cat_item" display_value="Painting Exhibtion - Impressions of Monet" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="db8f8dcc83c656101fd516dfeeaad3fb"/>
+            <item display_table="sc_cat_item" display_value="Rajasthan Desert and Heritage Tour" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="b3fcf6ce838ede101fd516dfeeaad3b1"/>
+            <item display_table="sc_cat_item" display_value="Painting Exhibtion - The Abstract Odyssey – A Modern Art Showcase" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="fb90d180830a56101fd516dfeeaad398"/>
+            <item display_table="sc_cat_item" display_value="Music - Rock the Night – Live in NYC" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="92868d0483c656101fd516dfeeaad363"/>
+            <item display_table="sc_cat_item" display_value="Comedy Fiesta – India Edition" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="1bec454c83c656101fd516dfeeaad3ee"/>
+            <item display_table="sc_cat_item" display_value="Comedy - Laugh Riot with Kevin Hart" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="80dbc5c883c656101fd516dfeeaad3c6"/>
+            <item display_table="sc_cat_item" display_value="European Explorer: Paris - Switzerland - Italy" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="ff396cbf833116101fd516dfeeaad356"/>
+            <item display_table="sc_cat_item" display_value="Goa Beach Holiday" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="e291ac3b833116101fd516dfeeaad376"/>
+            <item display_table="sc_cat_item" display_value="Kerala Backwaters and Beaches" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="true" value="4e2b8c3b83bdd2101fd516dfeeaad34a"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration>1970-01-31 00:00:00</duration>
+        <percent_random>100</percent_random>
+        <related_field_1/>
+        <related_field_2/>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-10 04:56:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>62d208c383d652101fd516dfeeaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
+        <sys_update_name>asmt_condition_62d208c383d652101fd516dfeeaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-10 04:56:40</sys_updated_on>
+        <table>sc_req_item</table>
+        <trigger_random>true</trigger_random>
+        <user_field>requested_for</user_field>
+    </asmt_condition>
+</record_update>

@@ -294,6 +294,12 @@
     attachment.write(current, 'Booking_Confirmation.html', 'text/html', htmlContent);
 
     gs.info('HTML Confirmation File Attached Successfully!');
+
+// 	 var pdfAPI = new sn_pdfgeneratorutils.PDFGenerationAPI();
+//  var result = pdfAPI.convertToPDF(htmlContent, current.getTableName(), current.getUniqueValue(), 'Booking_Confirmation');
+//      var attachment1 = new GlideSysAttachment();
+//       var file = attachment1.write(current, 'Booking_Confirmation', 'application/pdf', result);
+//     gs.info('HTML Confirmation File Attached Successfully!');
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -301,7 +307,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>03a71a5a831212101fd516dfeeaad3d3</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Attach Confirmation PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="ExploreNow" source="x_1275757_exploren">c75a2bb2833112101fd516dfeeaad318</sys_package>
@@ -309,9 +315,20 @@
         <sys_scope display_value="ExploreNow">c75a2bb2833112101fd516dfeeaad318</sys_scope>
         <sys_update_name>sys_script_03a71a5a831212101fd516dfeeaad3d3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 10:58:40</sys_updated_on>
+        <sys_updated_on>2024-12-12 09:47:49</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=03a71a5a831212101fd516dfeeaad3d3"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>03a71a5a831212101fd516dfeeaad3d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 09:44:51</sys_created_on>
+        <sys_id>61889fab831e16101fd516dfeeaad330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-12 09:44:51</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
